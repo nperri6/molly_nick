@@ -1,0 +1,77 @@
+.person {
+  background-color: blue;
+  border-radius: 40%;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#emily {
+  background-image: url();
+}
+
+#emily:hover {
+  background-image: url();
+}
+
+#adrian {
+  background-image: url();
+}
+
+#adrian:hover {
+  background-image: url();
+}
+
+#elena {
+  background-image: url();
+}
+
+#elena:hover {
+  background-image: url();
+}
+#leah {
+  background-image: url();
+}
+
+#leah:hover {
+  background-image: url();
+}
+#rachel {
+  background-image: url();
+}
+
+#rachel:hover {
+  background-image: url();
+}
+
+#morgan {
+  background-image: url();
+}
+
+#morgan:hover {
+  background-image: url();
+}
+
+#wenny {
+  background-image: url();
+}
+
+#wenny:hover {
+  background-image: url();
+}
+
+#ann {
+  background-image: url();
+}
+
+#ann:hover {
+  background-image: url();
+}
+#nicole {
+  background-image: url();
+}
+
+#nicole:hover {
+  background-image: url();
+}

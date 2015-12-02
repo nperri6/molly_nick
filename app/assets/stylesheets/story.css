@@ -1,0 +1,14 @@
+#molly {
+  height: 100px;
+  width: 100px;
+  top: 90px;
+  left: -10%;
+  position: relative;
+  z-index: 2;
+  background: url('apple.jpg');
+  background-position: center;
+  background-repeat: none;
+  background-size: 100% 100%;
+}
+
+
