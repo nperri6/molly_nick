@@ -1,0 +1,14 @@
+.map-container {
+  text-align: center;
+}
+
+.map-title {
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+#map {
+  width: 500px;
+  height: 400px;
+  background-color: red;
+  margin: 0 auto;
+}

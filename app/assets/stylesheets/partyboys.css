@@ -1,5 +1,5 @@
 #chen {
-  background-image: url();
+  background-image: url('chen.jpg');
 }
 
 #chen:hover {
@@ -7,7 +7,7 @@
 }
 
 #chris1 {
-  background-image: url();
+  background-image: url('chris1.jpg');
 }
 
 #chris1:hover {
@@ -15,21 +15,21 @@
 }
 
 #jim {
-  background-image: url();
+  background-image: url('jim.jpg');
 }
 
 #jim:hover {
   background-image: url();
 }
 #adam {
-  background-image: url();
+  background-image: url('adam.jpg');
 }
 
 #adam:hover {
   background-image: url();
 }
 #nick1 {
-  background-image: url();
+  background-image: url('nick1.jpg');
 }
 
 #nick1:hover {
@@ -37,7 +37,7 @@
 }
 
 #ben {
-  background-image: url();
+  background-image: url('ben.jpg');
 }
 
 #ben:hover {
@@ -45,7 +45,7 @@
 }
 
 #chris2 {
-  background-image: url();
+  background-image: url('chris2.jpg');
 }
 
 #chris2:hover {
@@ -53,14 +53,14 @@
 }
 
 #john {
-  background-image: url();
+  background-image: url('john.jpg');
 }
 
 #john:hover {
   background-image: url();
 }
 #curtis {
-  background-image: url();
+  background-image: url('curtis.jpg');
 }
 
 #curtis:hover {
