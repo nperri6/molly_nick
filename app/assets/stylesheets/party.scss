@@ -1,0 +1,79 @@
+.person {
+  background-color: blue;
+  border-radius: 40%;
+  height: 100px;
+  width: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+#emily {
+  background-image: image-url('emily.jpg');
+}
+
+#emily:hover {
+  background-image: image-url();
+}
+
+#adrian {
+  background-image: image-url('adrienne.jpg');
+}
+
+#adrian:hover {
+  background-image: image-url();
+}
+
+#elena {
+  background-image: image-url('elena.jpg');
+}
+
+#elena:hover {
+  background-image: image-url();
+}
+#leah {
+  background-image: image-url('leah.jpg');
+}
+
+#leah:hover {
+  background-image: image-url();
+}
+#rachel {
+  background-image: image-url('rachel.png');
+}
+
+#rachel:hover {
+  background-image: image-url();
+}
+
+#morgan {
+  background-image: image-url('morgan.jpg');
+}
+
+#morgan:hover {
+  background-image: image-url();
+}
+
+#wenny {
+  background-image: image-url('wenny.jpg');
+}
+
+#wenny:hover {
+  background-image: image-url();
+}
+
+#ann {
+  background-image: image-url('anne.jpg');
+}
+
+#ann:hover {
+  background-image: image-url();
+}
+#nicole {
+  background-image: image-url('nicole.jpg');
+}
+
+#nicole:hover {
+  background-image: image-url();
+}

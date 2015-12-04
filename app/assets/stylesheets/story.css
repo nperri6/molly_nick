@@ -4,7 +4,7 @@
   width: 300px;
   /*top: 100px*/
   z-index: 50;
-  background-image: url("nicknmolenewoutfit.png");
+  background-image: image-url("nicknmolenewoutfit.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -101,7 +101,7 @@
   left: 140%;
   position: relative;
   z-index: 2;
-  background: url('ring.png');
+  background: image-url('ring.png');
   background-position: center;
   background-repeat: none;
   background-color: blue;
@@ -116,7 +116,7 @@
   left: -50%;
   position: relative;
   z-index: 2;
-  background: url('ring.png');
+  background: image-url('ring.png');
   background-position: center;
   background-repeat: none;
   background-color: blue;
@@ -130,7 +130,7 @@
   left: 150%;
   position: relative;
   z-index: 2;
-  background: url('ring.png');
+  background: image-url('ring.png');
   background-position: center;
   background-repeat: none;
   background-color: blue;
@@ -144,7 +144,7 @@
   left: -65%;
   position: relative;
   z-index: 2;
-  background: url('ring.png');
+  background: image-url('ring.png');
   background-position: center;
   background-repeat: none;
   background-color: blue;
@@ -159,7 +159,7 @@
   left: 170%;
   position: relative;
   z-index: 2;
-  background: url('ring.png');
+  background: image-url('ring.png');
   background-position: center;
   background-repeat: none;
   background-color: blue;

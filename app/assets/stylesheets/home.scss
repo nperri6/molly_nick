@@ -35,7 +35,7 @@ html, body {
   min-width: 100%;
   height: 500px;
   background-color: #ADD8E6;
-  background-image: url('engagement.jpg');
+  background-image: image-url('engagement.jpg');
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -51,7 +51,7 @@ html, body {
   left: 0;
   right: 0;
   height: 3000px;
-  background-image: url('storybackground.png');
+  background-image: image-url('storybackground.png');
   /*background-position: ;*/
   background-repeat: no-repeat;
   background-size: cover;
