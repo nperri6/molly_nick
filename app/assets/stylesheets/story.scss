@@ -48,8 +48,23 @@
     animation-fill-mode: forward;
 }
 
+.story-title {
+  width: 100%;
+  left: 0;
+  right: 0;
+  /*height: 300px;*/
+  background-color: green;
+}
 .story {
   font-family: 'Shadows Into Light', cursive;
+}
+
+.story-blurb {
+  border: 1px solid black;
+
+  width: 15%;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 10;
 }
 
 #first {
