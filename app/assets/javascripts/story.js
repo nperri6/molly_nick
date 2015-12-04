@@ -91,8 +91,8 @@ $(document).ready(function() {
   window.addEventListener('resize', function() {
     var scrollTop = window.pageYOffset;
     var scrollAmount = (scrollTop / (scrollheight - windowheight)) * 400;
-    molly.style.left = -10 + scrollAmount + '%';
-    nick.style.left = 110 - scrollAmount + '%';
+    // molly.style.left = -10 + scrollAmount + '%';
+    // nick.style.left = 110 - scrollAmount + '%';
   });
 
 });

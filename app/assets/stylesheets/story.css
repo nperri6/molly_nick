@@ -48,15 +48,18 @@
     animation-fill-mode: forward;
 }
 
+.story {
+  font-family: 'Shadows Into Light', cursive;
+}
 
 #first {
   height: 100px;
-  width: 100px;
+  width: 200px;
  /* top: 40px;*/
   left: -10%;
   position: relative;
   z-index: 2;
-  background: url('apple.jpg');
+
   background-position: center;
   background-repeat: none;
   background-size: 100% 100%;
@@ -69,7 +72,7 @@
   left: 110%;
   position: relative;
   z-index: 2;
-  background: url('ring.png');
+
   background-position: center;
   background-repeat: none;
   background-color: blue;
@@ -84,7 +87,7 @@
   left: -30%;
   position: relative;
   z-index: 2;
-  background: url('ring.png');
+
   background-position: center;
   background-repeat: none;
   background-color: blue;
