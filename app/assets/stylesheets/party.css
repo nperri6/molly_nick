@@ -3,12 +3,14 @@
   border-radius: 40%;
   height: 100px;
   width: 100px;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
 }
 
 #emily {
-  background-image: url();
+  background-image: url('emily.jpg');
 }
 
 #emily:hover {
@@ -16,7 +18,7 @@
 }
 
 #adrian {
-  background-image: url();
+  background-image: url('adrienne.jpg');
 }
 
 #adrian:hover {
@@ -24,21 +26,21 @@
 }
 
 #elena {
-  background-image: url();
+  background-image: url('elena.jpg');
 }
 
 #elena:hover {
   background-image: url();
 }
 #leah {
-  background-image: url();
+  background-image: url('leah.jpg');
 }
 
 #leah:hover {
   background-image: url();
 }
 #rachel {
-  background-image: url();
+  background-image: url('rachel.png');
 }
 
 #rachel:hover {
@@ -46,7 +48,7 @@
 }
 
 #morgan {
-  background-image: url();
+  background-image: url('morgan.jpg');
 }
 
 #morgan:hover {
@@ -54,7 +56,7 @@
 }
 
 #wenny {
-  background-image: url();
+  background-image: url('wenny.jpg');
 }
 
 #wenny:hover {
@@ -62,14 +64,14 @@
 }
 
 #ann {
-  background-image: url();
+  background-image: url('anne.jpg');
 }
 
 #ann:hover {
   background-image: url();
 }
 #nicole {
-  background-image: url();
+  background-image: url('nicole.jpg');
 }
 
 #nicole:hover {
