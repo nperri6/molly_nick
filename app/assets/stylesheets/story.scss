@@ -52,8 +52,15 @@
   width: 100%;
   left: 0;
   right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   /*height: 300px;*/
   background-color: green;
+}
+
+.story-title h3 {
+  margin: 0;
+  text-align: center;
 }
 .story {
   font-family: 'Shadows Into Light', cursive;
@@ -61,15 +68,22 @@
 
 .story-blurb {
   border: 1px solid black;
-
-  width: 15%;
+  width: 20%;
   background-color: rgba(0,0,0,0.2);
   z-index: 10;
+  border-radius: 20px;
 }
 
+.story-blurb h3 {
+  margin: 0 0 0 5px;
+}
+
+.story-blurb p {
+  margin: 0 0 0 14px;
+}
 #first {
-  height: 100px;
-  width: 200px;
+  /*height: 100px;*/
+  /*width: 200px;*/
  /* top: 40px;*/
   left: -10%;
   position: relative;
@@ -81,8 +95,8 @@
 }
 
 #second {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;*/
+  /*width: 100px;*/
   top: 200px;
   left: 110%;
   position: relative;
@@ -90,14 +104,13 @@
 
   background-position: center;
   background-repeat: none;
-  background-color: blue;
   background-size: 100% 100%;
 }
 
 
 #third {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;*/
+  /*width: 100px;*/
   top: 400px;
   left: -30%;
   position: relative;
@@ -105,78 +118,72 @@
 
   background-position: center;
   background-repeat: none;
-  background-color: blue;
   background-size: 100% 100%;
 }
 
 #fourth {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;*/
+  /*width: 100px;*/
   top: 600px;
   left: 140%;
   position: relative;
   z-index: 2;
-  background: image-url('ring.png');
+
   background-position: center;
   background-repeat: none;
-  background-color: blue;
   background-size: 100% 100%;
 }
 
 
 #fifth {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;*/
+  /*width: 100px;*/
   top: 800px;
   left: -50%;
   position: relative;
   z-index: 2;
-  background: image-url('ring.png');
+
   background-position: center;
   background-repeat: none;
-  background-color: blue;
   background-size: 100% 100%;
 }
 
 #sixth {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;*/
+  /*width: 100px;*/
   top: 1000px;
   left: 150%;
   position: relative;
   z-index: 2;
-  background: image-url('ring.png');
+
   background-position: center;
   background-repeat: none;
-  background-color: blue;
   background-size: 100% 100%;
 }
 
 #seventh {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;*/
+  /*width: 100px;*/
   top: 1200px;
   left: -65%;
   position: relative;
   z-index: 2;
-  background: image-url('ring.png');
+
   background-position: center;
   background-repeat: none;
-  background-color: blue;
   background-size: 100% 100%;
 }
 
 
 #eighth {
-  height: 100px;
-  width: 100px;
+  /*height: 100px;*/
+  /*width: 100px;*/
   top: 1400px;
   left: 170%;
   position: relative;
   z-index: 2;
-  background: image-url('ring.png');
+
   background-position: center;
   background-repeat: none;
-  background-color: blue;
   background-size: 100% 100%;
 }
