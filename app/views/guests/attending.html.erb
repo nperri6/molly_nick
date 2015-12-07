@@ -1,0 +1,20 @@
+
+
+<div class="attending-container">
+  <h3> Total Guests Responded: <%= @attending.count %> </h3>
+
+  <h3> Total Guests Attending: <%= @attending.where(attending: 'true').count %> </h3>
+
+  <div> <h3>Guests Attending: </h3> </div>
+  <ol>
+    <% @attending.where(attending: 'true').each do |guest| %>
+      <li> <%= guest.firstname %> <%=guest.lastname %></li>
+    <% end %>
+  </ol>
+  <div> <h3> Guests Not Attending:</h3> </div>
+  <ol>
+    <% @attending.where(attending: 'false').each do |guest| %>
+      <li> <%= guest.firstname %> <%= guest.lastname %></li>
+    <% end %>
+  </ol>
+</div>
