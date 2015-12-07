@@ -1,0 +1,16 @@
+
+<% if @guestnum == nil %>
+  <% @guestnum = 0 %>
+<% end %>
+
+<div id="guest-form">
+  <%= label_tag 'Firstname:' %>
+  <%= text_field_tag 'firstnames[]' %>
+  <%= label_tag 'Lastname:' %>
+  <%= text_field_tag 'lastnames[]' %>
+  <div>
+    <%= label_tag 'Attending?' %>
+    Yes!: <%= radio_button_tag "attending[#{@guestnum}]", 'true', true %>
+    Nope: <%= radio_button_tag "attending[#{@guestnum}]", 'false' %>
+  </div>
+</div>
