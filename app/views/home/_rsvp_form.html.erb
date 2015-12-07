@@ -1,0 +1,15 @@
+<div id="rsvp-form-container">
+  <div class="rsvp-left"> </div>
+
+  <div class="rsvp-right">
+    <h3> RSVP </h3>
+    <%= form_tag('/guests/create', method: :post) do %>
+      <%= render partial: '/guests/new' %>
+      <div class="additional-guests"> </div>
+      <a href="#" class="add-new-guest"> Add Another Guest </a>
+      <div>
+        <%= submit_tag 'RSVP' %>
+      </div>
+    <% end %>
+  </div>
+</div>
