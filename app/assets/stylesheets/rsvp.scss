@@ -16,7 +16,7 @@
 
 #rsvp-form-container {
   margin: 0 auto;
-  width: 600px;
+  width: 655px;
   min-height: 400px;
   color: #663300;
   border: 1px solid #663300;
@@ -61,10 +61,21 @@
 }
 
 .rsvp-logo {
-  height: 100px;
-  width: 300px;
-  background-image: image-url('rsvp.png');
+  height: 107px;
+  width: 400px;
+  background-image: image-url('rsvplogo2.png');
   background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: -23px;
+
+}
+
+.rsvp-stamp {
+  display: inline-block;
+  height: 107px;
+  width: 150px;
+
+  background-image: image-url('weddingstamp.png');
 }
 
 .rsvpButton {
