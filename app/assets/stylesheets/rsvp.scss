@@ -5,6 +5,10 @@
 
 }
 
+.rsvp-second {
+  margin-top: -35px;
+}
+
 #rsvp-container a {
   text-decoration: none;
   color: gray;
@@ -13,6 +17,7 @@
 #rsvp-form-container {
   margin: 0 auto;
   width: 600px;
+  min-height: 400px;
   color: #663300;
   border: 1px solid #663300;
   background: image-url('paper.png');
@@ -50,3 +55,50 @@
   padding-left: 20px;
 }
 
+.rsvp-right h3 {
+  font-size: 50px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.rsvp-logo {
+  height: 100px;
+  width: 300px;
+  background-image: image-url('rsvp.png');
+  background-repeat: no-repeat;
+}
+
+.rsvpButton {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+  background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+  background-color:#eae0c2;
+  -moz-border-radius:13px;
+  -webkit-border-radius:13px;
+  border-radius:13px;
+  border:1px solid #333029;
+  display:inline-block;
+  cursor:pointer;
+  color:#505739;
+  font-family: 'Kaushan Script', cursive;
+  font-size:12px;
+  padding:5px 10px;
+  text-decoration:none;
+}
+.rsvpButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+  background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+  background-color:#ccc2a6;
+}
+.rsvpButton:active {
+  position:relative;
+  top:1px;
+}
