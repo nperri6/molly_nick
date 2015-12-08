@@ -1,7 +1,7 @@
 html, body {
   width: 100%;
   height: 7000px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Kaushan Script', cursive;
   margin: 0;
 }
 
@@ -9,6 +9,19 @@ h3 {
   margin-top: 0px;
 }
 
+.section-title {
+  font-size: 50px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.secondary-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Shadows Into Light', cursive;
+}
 #wrap {
   position: relative;
 }
@@ -39,11 +52,13 @@ h3 {
 
 #home {
   min-width: 100%;
-  height: 500px;
-  background: image-url('engagement.jpg') center center no-repeat, image-url('tileable_wood_texture.png') repeat;
-/*  background-image: image-url('engagement.jpg');
+  height: 675px;
+  /*background: image-url('engagement.jpg') center center no-repeat, image-url('tileable_wood_texture.png') repeat;*/
+  background-image: image-url('engage3.jpg');
+  /*background-image: image-url('nickmole3.jpg');*/
   background-position: center;
-  background-repeat: no-repeat;*/
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
   /*background: image-url('witewall_3.png') repeat;;*/
   margin: 0 auto;
   margin-top: 40px;
@@ -65,29 +80,30 @@ h3 {
 }
 
 
-.timeline {
-  width: 100%;
-  left: 0;
-  right: 0;
-  height: 1000px;
-  background-image: image-url('new_year_background.png');
-}
 
 .map-container {
 
   width: 100%;
   left: 0;
   right: 0;
-  height: 1000px;
+  height: 875px;
   background-image: image-url('tileable_wood_texture.png');
+}
+
+.timeline {
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 700px;
+  background-image: image-url('new_year_background.png');
 }
 
 .party {
   width: 100%;
   left: 0;
   right: 0;
-  height: 1000px;
-  background-image: image-url('new_year_background.png');
+  height: 800px;
+  background-image: image-url('tileable_wood_texture.png');
 
 }
 
@@ -96,7 +112,7 @@ h3 {
   left: 0;
   right: 0;
   height: 600px;
-  background-image: image-url('tileable_wood_texture.png');
+  background-image: image-url('new_year_background.png');
   background-repeat: repeat;
 }
 
@@ -105,7 +121,7 @@ h3 {
   left: 0;
   right: 0;
   height: 600px;
-  background-image: image-url('new_year_background.png');
+  background-image: image-url('tileable_wood_texture.png');
 }
 
 
