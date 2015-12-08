@@ -5,6 +5,10 @@
 
 }
 
+.add-new-guest {
+  margin-top: 10px;
+}
+
 .rsvp-second {
   margin-top: -35px;
 }
@@ -18,8 +22,8 @@
   margin: 0 auto;
   width: 655px;
   min-height: 400px;
-  color: #663300;
-  border: 1px solid #663300;
+  color: #3c516c;
+  border: 1px solid #3c516c;
   background: image-url('paper.png');
   display: table;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
@@ -28,14 +32,15 @@
 }
 
 #guest-form {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #guest-form input[type="text"] {
   padding: 10px;
   border: none;
-  border-bottom: solid 2px #663300;
-  color: #663300;
+  border-bottom: solid 2px #3c516c;
+  color: #3c516c;
   font-family: 'Kaushan Script', cursive;
   transition: border 0.3s;
   background: image-url('paper.png');
@@ -78,6 +83,10 @@
   background-image: image-url('weddingstamp.png');
 }
 
+#rsvpButton {
+  margin-top: 15px;
+}
+
 .rsvpButton {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
   background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
@@ -93,7 +102,7 @@
   border:1px solid #333029;
   display:inline-block;
   cursor:pointer;
-  color:#505739;
+  color:#3c516c;
   font-family: 'Kaushan Script', cursive;
   font-size:12px;
   padding:5px 10px;
