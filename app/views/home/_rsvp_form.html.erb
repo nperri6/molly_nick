@@ -2,13 +2,13 @@
   <div class="rsvp-left"> </div>
 
   <div class="rsvp-right">
-    <h3> RSVP </h3>
+    <div class="rsvp-logo"></div>
     <%= form_tag('/guests/create', method: :post) do %>
       <%= render partial: '/guests/new' %>
       <div class="additional-guests"> </div>
       <a href="#" class="add-new-guest"> Add Another Guest </a>
       <div>
-        <%= submit_tag 'Mail In RSVP' %>
+        <%= submit_tag 'Mail In RSVP', :class => "rsvpButton" %>
       </div>
     <% end %>
   </div>
