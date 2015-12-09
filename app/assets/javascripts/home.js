@@ -13,9 +13,11 @@ $(document).ready(function() {
 
   function parallaxHome() {
     var scrollTop = window.pageYOffset;
+    if (scrollTop < 3000) {
     var scrollAmount = (scrollTop / (scrollheight - windowheight)) * 400;
       home.style.bottom = -scrollTop + 'px';
       // wrap.style.top = -scrollTop + 'px';
+    }
   };
 
 
