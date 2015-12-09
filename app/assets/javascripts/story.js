@@ -30,35 +30,35 @@ $(document).ready(function() {
     }
     // first
     if (scrollTop < 810) {
-      first.style.left = -30 + scrollAmount * 3.75 + '%';
+      first.style.left = -30 + scrollAmount * 3.85 + '%';
     }
     // second
     if (scrollTop < 1000) {
       second.style.left = 140 - scrollAmount * 4.75 + '%';
     }
     //third
-    if (scrollTop < 1200) {
-      third.style.left = -150 + scrollAmount * 5.75 + '%';
+    if (scrollTop > 700 && scrollTop < 1460) {
+      third.style.left = -100 + scrollAmount * 5.35 + '%';
     }
     // fourth
-    if (scrollTop > 900 && scrollTop < 1500) {
-      fourth.style.left = 140 - scrollAmount + '%';
+    if (scrollTop > 1400 && scrollTop < 1720) {
+      fourth.style.left = 170 - scrollAmount * 4 + '%';
     }
     // fifth
-    if (scrollTop > 1500 && scrollTop < 1800) {
-      fifth.style.left = -50 + scrollAmount/1.15 + '%';
+    if (scrollTop > 1700 && scrollTop < 1944) {
+      fifth.style.left = -100 + scrollAmount * 4 + '%';
     }
     //sixth
-    if (scrollTop > 1800 && scrollTop < 2200) {
-      sixth.style.left = 150 - scrollAmount/1.20 + '%';
+    if (scrollTop >1900 && scrollTop < 2200) {
+      sixth.style.left = 170 - scrollAmount* 3.1 + '%';
     }
     // seventh
-    if (scrollTop > 1800 && scrollTop < 2400) {
-      seventh.style.left = -65 + scrollAmount/1.25 + '%';
+    if (scrollTop > 2200 && scrollTop < 2500) {
+      seventh.style.left = -100 + scrollAmount * 3.1 + '%';
     }
     // eighth
-    if (scrollTop > 2200 && scrollTop < 2700) {
-      eighth.style.left = 170 - scrollAmount/1.20 + '%';
+    if (scrollTop > 2400 && scrollTop < 2800) {
+      eighth.style.left = 200 - scrollAmount * 3.1 + '%';
     }
 
 
