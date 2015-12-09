@@ -32,6 +32,21 @@
   background: -o-linear-gradient(#fff, #999);
 }
 
+.modal-img {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  background-size: 100% 100%;
+  border-radius: 100%;
+  float: left;
+}
+
+
+.modal-name {
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+}
 
 .close {
   background: #606061;
