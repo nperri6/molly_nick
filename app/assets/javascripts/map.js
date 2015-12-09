@@ -11,11 +11,12 @@ $(document).ready(function() {
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
     // var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+    var wedding = 'assets/glyph-ring.png';
     var weddingPosition = new google.maps.LatLng(42.199109, -88.249299);
     var marker = new google.maps.Marker({
       position: weddingPosition,
       map: map,
-      icon:'assets/glyph-ring.png'
+      icon: wedding
     });
 
     var receptionPosition = new google.maps.LatLng(42.192015, -88.251911);

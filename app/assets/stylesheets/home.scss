@@ -1,7 +1,8 @@
 html, body {
   width: 100%;
   height: 7000px;
-  font-family: 'Kaushan Script', cursive;
+  /*font-family: 'Kaushan Script', cursive;*/
+  font-family: 'Amaranth', sans-serif;
   margin: 0;
 }
 
@@ -11,7 +12,8 @@ h3 {
 
 .section-title {
   font-size: 50px;
-  font-family: 'Shadows Into Light', cursive;
+  /*font-family: 'Shadows Into Light', cursive;*/
+  font-family: 'Merienda One', cursive;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -20,7 +22,8 @@ h3 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 10px;
-  font-family: 'Shadows Into Light', cursive;
+  /*font-family: 'Shadows Into Light', cursive;*/
+  font-family: 'Merienda One', cursive;
 }
 #wrap {
   position: relative;
@@ -32,7 +35,7 @@ h3 {
   top: 0;
   left: 0;
   z-index: 99999;
-  background-color: rgba(211,211,211,0.2);
+  background-color: rgba(211,211,211,0.4);
   text-align: center;
   vertical-align: text-top;
   border-bottom: 2px solid black;
@@ -40,7 +43,7 @@ h3 {
 
 .nav-bar a {
   text-decoration: none;
-  font-family: fantasy;
+  font-family: 'Merienda One', cursive;
   color: black;
   font-size: 1.3em;
   margin: 10px 10px 0px 10px;
@@ -74,7 +77,6 @@ h3 {
   right: 0;
   height: 3000px;
   background-image: image-url('storybackground.png');
-  /*background-position: ;*/
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
