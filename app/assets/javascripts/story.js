@@ -15,6 +15,7 @@ $(document).ready(function() {
   var seventh = document.getElementById('seventh');
   var eighth = document.getElementById('eighth');
 
+  var groom = document.getElementById('groom')
   var walkers = document.getElementById('walkers');
 
   var scrollheight = document.body.scrollHeight;
@@ -22,22 +23,22 @@ $(document).ready(function() {
 
   function parallaxStory() {
     var scrollTop = window.pageYOffset;
-    var scrollAmount = (scrollTop / (scrollheight - windowheight)) * 400;
+    var scrollAmount = (scrollTop / (scrollheight - windowheight)) * 100;
     //walkers
-    if (scrollTop > 350 && scrollTop < 3085) {
-      walkers.style.top = scrollTop-350  + 'px';
+    if (scrollTop > 600 && scrollTop < 3340) {
+      walkers.style.top = scrollTop -600  + 'px';
     }
     // first
-    if (scrollTop < 620) {
-      first.style.left = -10 + scrollAmount + '%';
+    if (scrollTop < 810) {
+      first.style.left = -30 + scrollAmount * 3.75 + '%';
     }
     // second
-    if (scrollTop < 900) {
-      second.style.left = 110 - scrollAmount + '%';
+    if (scrollTop < 1000) {
+      second.style.left = 140 - scrollAmount * 4.75 + '%';
     }
     //third
-    if (scrollTop < 1100) {
-      third.style.left = -30 + scrollAmount + '%';
+    if (scrollTop < 1200) {
+      third.style.left = -150 + scrollAmount * 5.75 + '%';
     }
     // fourth
     if (scrollTop > 900 && scrollTop < 1500) {
@@ -60,6 +61,7 @@ $(document).ready(function() {
       eighth.style.left = 170 - scrollAmount/1.20 + '%';
     }
 
+
     // if (scrollTop < 1000) {
     //   first.style.left = -10 + scrollAmount + '%';
     //   second.style.left = 110 - scrollAmount + '%';
@@ -73,7 +75,7 @@ $(document).ready(function() {
     walking += 1;
     var walkers = document.getElementById('walkers');
     var scrollTop = window.pageYOffset;
-    // if (walking % 10 === 0 && scrollTop < 3085) {
+    // if (walking % 20 === 0 && scrollTop < 3085) {
     //   if ($(walkers).css('background-image') === "url(http://localhost:3000/assets/nicknmolenewoutfit.png)") {
     //     $(walkers).css('background-image', "url(http://localhost:3000/assets/nickandmolewalk.png)");
     //   } else {
@@ -82,6 +84,12 @@ $(document).ready(function() {
     // } else if (scrollTop >= 3085) {
     //   $(walkers).css('background-image', "url(http://localhost:3000/assets/nicknmolenewoutfit.png)");
     // }
+
+    if (scrollTop > 3340 && scrollTop < 4200) {
+      var doc = document.getElementById('wrap');
+      doc.style.bottom = -scrollTop + 3340 + 'px';
+    }
+
   }
   window.addEventListener('scroll', function() {
     walkingMotion();
