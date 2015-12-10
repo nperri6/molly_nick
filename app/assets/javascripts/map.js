@@ -9,8 +9,8 @@ $(document).ready(function() {
       zoom: 13,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
-    var map = new google.maps.Map(mapCanvas, mapOptions);
     // var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+    var map = new google.maps.Map(mapCanvas, mapOptions);
     var wedding = 'assets/glyph-ring.png';
     var weddingPosition = new google.maps.LatLng(42.199109, -88.249299);
     var marker = new google.maps.Marker({
