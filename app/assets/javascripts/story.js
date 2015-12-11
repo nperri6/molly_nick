@@ -75,7 +75,7 @@ $(document).ready(function() {
     walking += 1;
     var walkers = document.getElementById('walkers');
     var scrollTop = window.pageYOffset;
-    if (walking % 10 === 0 && scrollTop < 3085) {
+    if (walking % 4 === 0 && scrollTop < 3085) {
       if ($('#walkers-walk').css('display') === "none") {
         $('#walkers-walk').css('display', 'block');
         $('#walkers-stand').css('display', 'none');
