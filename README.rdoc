@@ -1,28 +1,7 @@
-== README
+Molly and Nick is a personal wedding website.  The website is a one-stop resource for all necessary
+information about the wedding.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The website is still currently under progress and, while deployed to Heroku, is not public yet.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Technology used in this project include Ruby on Rails, Javascript, jQuery, Ajax, HTML5 and CSS3.
+There is a also small postgres database used to handle wedding RSVPs.
