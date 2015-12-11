@@ -1,7 +1,7 @@
 Molly and Nick is a personal wedding website.  The website is a one-stop resource for all necessary
 information about the wedding.
 
-The website is still currently under progress and, while deployed to Heroku, is not public yet.
+The website is still currently under construction and, while deployed to Heroku, is not public yet.
 
 Technology used in this project include Ruby on Rails, Javascript, jQuery, Ajax, HTML5 and CSS3.
 There is a also small postgres database used to handle wedding RSVPs.
