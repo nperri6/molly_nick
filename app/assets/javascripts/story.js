@@ -75,14 +75,23 @@ $(document).ready(function() {
     walking += 1;
     var walkers = document.getElementById('walkers');
     var scrollTop = window.pageYOffset;
-    if (walking % 20 === 0 && scrollTop < 3085) {
-      if ($(walkers).css('background-image') === "url(http://localhost:3000/assets/nicknmolenewoutfit.png)") {
-        $(walkers).css('background-image', "url(http://localhost:3000/assets/nickandmolewalk.png)");
+    if (walking % 10 === 0 && scrollTop < 3085) {
+      if ($('#walkers-walk').css('display') === "none") {
+        $('#walkers-walk').css('display', 'block');
+        $('#walkers-stand').css('display', 'none');
+        // $('#walkers').css('background', 'rgba(0,0,0,0)');
       } else {
-        $(walkers).css('background-image', "url(http://localhost:3000/assets/nicknmolenewoutfit.png)");
+        $('#walkers-walk').css('display', 'none');
+        $('#walkers-stand').css('display', 'block');
       }
+      // if ($(walkers).css('background-image') === "url(http://localhost:3000/assets/nicknmolenewoutfit.png)") {
+      //   $(walkers).css('background-image', "url(http://localhost:3000/assets/nickandmolewalk.png)");
+      // } else {
+      //   $(walkers).css('background-image', "url(http://localhost:3000/assets/nicknmolenewoutfit.png)");
+      // }
     } else if (scrollTop >= 3085) {
-      $(walkers).css('background-image', "url(http://localhost:3000/assets/nicknmolenewoutfit.png)");
+      $('#walkers-walk').css('display', 'none');
+      $('#walkers-stand').css('display', 'block');
     }
 
     if (scrollTop > 3340 && scrollTop < 4200) {
