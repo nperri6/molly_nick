@@ -9,7 +9,7 @@
 /*  background-image: image-url('storysprite.png');
   background-position: -5px -5px;*/
     /*background-repeat: no-repeat;*/
-  background: image-url('nicknmolenewoutfit.png') center center no-repeat;
+  /*background: image-url('nicknmolenewoutfit.png') center center no-repeat;*/
   /* image-url('nickandmolewalk.png') center center no-repeat;*/
   /*background-image: image-url("nicknmolenewoutfit.png");*/
 /*  background-position: center center;
@@ -24,7 +24,29 @@
     animation-iteration-count: infinite;*/
 }
 
+#walkers-walk {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: image-url('nickandmolewalk.png') center center no-repeat;
+  background-size: 100% 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*display: none;*/
+}
 
+#walkers-stand {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  background: image-url('nicknmolenewoutfit.png') center center no-repeat;
+  background-size: 100% 100%;
+}
 #groom {
   height: 300px;
   width: 300px;
