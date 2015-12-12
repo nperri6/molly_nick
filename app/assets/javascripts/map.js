@@ -26,7 +26,7 @@ $(document).ready(function() {
       icon: 'assets/glyph-glass.png'
     });
 
-    var hotelPosition = new google.maps.LatLng(42.221874, -88.284948);
+    var hotelPosition = new google.maps.LatLng(42.220275, -88.284814);
     var marker = new google.maps.Marker({
       position: hotelPosition,
       map: map,
