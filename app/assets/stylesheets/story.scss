@@ -4,24 +4,9 @@
   margin: 0 auto;
   height: 300px;
   width: 300px;
-  /*top: 100px*/
   z-index: 50;
-/*  background-image: image-url('storysprite.png');
-  background-position: -5px -5px;*/
-    /*background-repeat: no-repeat;*/
-  /*background: image-url('nicknmolenewoutfit.png') center center no-repeat;*/
-  /* image-url('nickandmolewalk.png') center center no-repeat;*/
-  /*background-image: image-url("nicknmolenewoutfit.png");*/
-/*  background-position: center center;
-  background-repeat: no-repeat;*/
   background-size: 100% 100%;
   position: relative;
-  /*-webkit-animation-name: changeBg;
-    animation-name: changeBg;
-  -webkit-animation-duration: 2s;
-     animation-duration: 0.5s;
-  -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;*/
 }
 
 #walkers-walk {
@@ -34,7 +19,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  /*display: none;*/
 }
 
 #walkers-stand {
@@ -57,53 +41,9 @@
   top: 1650px;
 }
 
-/*/*@-webkit-keyframes changeBg
-{
-   0%   {background-image: image-url('nicknmolenewoutit.png');}
-   /*25%  {background-image: url("images/img2.jpg");}*/
-   /*50%  {background-image: image-url('nickandmolewalk.png');}*/
-   /*100% {background-image: url("images/img4.jpg");}*/
-/*}*/
-
-/*
- * Animation for webkit
-*/
-/*@-webkit-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
-    40% {-webkit-transform: translateY(5px);}
-    60% {-webkit-transform: translateY(-5px);}
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(5px);}
-    60% {transform: translateY(-5px);}
-}*/
-
-/*
- * Adding the animation to our element
-*/
-/*.bounce {
-    -webkit-animation-name: bounce;
-    animation-name: bounce;
-}*/
-
-
-/*
- * Animation configurations ( duration and fill mode )
-*/
-/*.animated {
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: forward;
-    animation-fill-mode: forward;*/
-/*}*/
 
 .storymodalDialog {
   position: fixed;
-  /*font-family: Arial, Helvetica, sans-serif;*/
   top: 0;
   right: 0;
   bottom: 0;
@@ -146,15 +86,15 @@
 }
 
 #third-story-pic {
-  background-image: image-url('mollynicktwo.png');
+  background-image: image-url('mollynickhallo.png');
 }
 
 #fourth-story-pic {
-  background-image: image-url('mollynickfireworks.jpg');
+  background-image: image-url('mollynickbike.png');
 }
 
 #fifth-story-pic {
-  background-image: image-url('mollynickfirst.jpg');
+  background-image: image-url('mollynickfireworks.jpg');
 }
 
 #sixth-story-pic {
@@ -210,7 +150,6 @@
   right: 0;
   margin-top: 0;
   margin-bottom: 0;
-  /*height: 300px;*/
   background-color: #71bc78;
 
 }
@@ -219,9 +158,7 @@
   margin: 0;
   text-align: center;
 }
-.story {
-  /*font-family: 'Shadows Into Light', cursive;*/
-}
+
 
 .story-blurb {
   border: 3px solid black;
@@ -258,9 +195,6 @@
   margin: 0 0 0 14px;
 }
 #first {
-  /*height: 100px;*/
-  /*width: 200px;*/
- /* top: 40px;*/
   left: -10%;
   position: relative;
   z-index: 2;
@@ -271,8 +205,6 @@
 }
 
 #second {
-  /*height: 100px;*/
-  /*width: 100px;*/
   top: 200px;
   left: 110%;
   position: relative;
@@ -285,8 +217,6 @@
 
 
 #third {
-  /*height: 100px;*/
-  /*width: 100px;*/
   top: 400px;
   left: -30%;
   position: relative;
@@ -298,8 +228,6 @@
 }
 
 #fourth {
-  /*height: 100px;*/
-  /*width: 100px;*/
   top: 600px;
   left: 140%;
   position: relative;
@@ -312,8 +240,6 @@
 
 
 #fifth {
-  /*height: 100px;*/
-  /*width: 100px;*/
   top: 800px;
   left: -50%;
   position: relative;
@@ -325,8 +251,6 @@
 }
 
 #sixth {
-  /*height: 100px;*/
-  /*width: 100px;*/
   top: 1000px;
   left: 150%;
   position: relative;
@@ -338,8 +262,6 @@
 }
 
 #seventh {
-  /*height: 100px;*/
-  /*width: 100px;*/
   top: 1200px;
   left: -65%;
   position: relative;
@@ -352,8 +274,6 @@
 
 
 #eighth {
-  /*height: 100px;*/
-  /*width: 100px;*/
   top: 1400px;
   left: 170%;
   position: relative;
