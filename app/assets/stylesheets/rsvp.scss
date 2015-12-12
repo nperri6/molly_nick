@@ -1,8 +1,50 @@
 #rsvp-container {
   text-align: center;
-  /*font-family: 'Kaushan Script', cursive;*/
+  margin: 0 auto;
+}
 
+.card {
+  position: relative;
+  text-align: center;
+  width: 655px;
+  /*width: inherit;*/
+  min-height: 400px;
+  margin: 0 auto;
+}
 
+.card__front, .card__back {
+  position: absolute;
+/*  top: 0;
+  left: 0;*/
+  text-align: center;
+  width: 655px;
+  min-height: 400px;
+/*  width: 100%;
+  height: 100%;*/
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__back {
+  background-color: #1e1e1e;
+  background-image: image-url('mollynickbeack2.jpg');
+  background-size: 100% 100%;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+}
+
+.flipped {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+.flipped-back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
 }
 
 .add-new-guest {
@@ -19,9 +61,12 @@
 }
 
 #rsvp-form-container {
+  text-align: center;
   margin: 0 auto;
-  width: 655px;
-  min-height: 400px;
+  width: inherit;
+  min-height: inherit;
+  /*width: 655px;*/
+  /*min-height: 400px;*/
   color: #3c516c;
   border: 1px solid #3c516c;
   background: image-url('paper.png');
@@ -62,7 +107,6 @@
 
 .rsvp-right h3 {
   font-size: 50px;
-  /*font-family: 'Shadows Into Light', cursive;*/
 }
 
 .rsvp-logo {
@@ -103,7 +147,6 @@
   display:inline-block;
   cursor:pointer;
   color:#3c516c;
-  /*font-family: 'Kaushan Script', cursive;*/
   font-size:12px;
   padding:5px 10px;
   text-decoration:none;
