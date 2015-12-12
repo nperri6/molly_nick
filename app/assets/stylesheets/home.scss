@@ -1,7 +1,6 @@
 html, body {
   width: 100%;
   height: 7000px;
-  /*font-family: 'Kaushan Script', cursive;*/
   font-family: 'Amaranth', sans-serif;
   margin: 0;
 }
@@ -12,7 +11,6 @@ h3 {
 
 .section-title {
   font-size: 50px;
-  /*font-family: 'Shadows Into Light', cursive;*/
   font-family: 'Merienda One', cursive;
   text-align: center;
   margin-bottom: 20px;
@@ -22,7 +20,6 @@ h3 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 10px;
-  /*font-family: 'Shadows Into Light', cursive;*/
   font-family: 'Merienda One', cursive;
 }
 #wrap {
@@ -56,19 +53,15 @@ h3 {
 #home {
   min-width: 100%;
   height: 675px;
-  /*background: image-url('engagement.jpg') center center no-repeat, image-url('tileable_wood_texture.png') repeat;*/
-  /*background-image: image-url('engage3.jpg');*/
-  background-image: image-url('mollynickbeach.jpg');
+  background-image: image-url('engage4.jpg');
+  /*background-image: image-url('mollynickbeach.jpg');*/
   /*background-image: image-url('mollynickdark.png');*/
   background-position: center;
   background-size: cover;
-  /*background-repeat: no-repeat;*/
-  /*background: image-url('witewall_3.png') repeat;;*/
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
   left: 0;
-  /*top: 0;*/
 }
 
 
