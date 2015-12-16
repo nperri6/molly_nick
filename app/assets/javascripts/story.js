@@ -45,19 +45,19 @@ $(document).ready(function() {
       fourth.style.left = 170 - scrollAmount * 4 + '%';
     }
     // fifth
-    if (scrollTop > 1700 && scrollTop < 1944) {
+    if (scrollTop > 1780 && scrollTop < 1944) {
       fifth.style.left = -100 + scrollAmount * 4 + '%';
     }
     //sixth
-    if (scrollTop >1900 && scrollTop < 2200) {
+    if (scrollTop >2100 && scrollTop < 2250) {
       sixth.style.left = 170 - scrollAmount* 3.1 + '%';
     }
     // seventh
-    if (scrollTop > 2200 && scrollTop < 2500) {
-      seventh.style.left = -100 + scrollAmount * 3.1 + '%';
+    if (scrollTop > 2400 && scrollTop < 2700) {
+      seventh.style.left = -110 + scrollAmount * 3.1 + '%';
     }
     // eighth
-    if (scrollTop > 2400 && scrollTop < 2800) {
+    if (scrollTop > 2700 && scrollTop < 2900) {
       eighth.style.left = 200 - scrollAmount * 3.1 + '%';
     }
 
