@@ -21,6 +21,14 @@ $(document).ready(function() {
   var scrollheight = document.body.scrollHeight;
   var windowheight = window.innerHeight;
 
+// should refactor all of this parallax logic
+
+// it is too glitchy
+// add restrictions for mobile device
+//
+
+
+
   function parallaxStory() {
     var scrollTop = window.pageYOffset;
     var scrollAmount = (scrollTop / (scrollheight - windowheight)) * 100;

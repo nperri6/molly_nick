@@ -1,3 +1,7 @@
+.person {
+
+}
+
 #chen {
   background-image: image-url('chen.jpg');
 }
@@ -22,14 +26,14 @@
   background-image: image-url('jimfun.jpg');
 }
 #adam {
-  background-image: image-url('adam.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/adam.jpg');
 }
 
 #adam:hover {
   background-image: image-url('adamfun.jpg');
 }
 #nick1 {
-  background-image: image-url('nick1.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/nick1.jpg');
 }
 
 #nick1:hover {
