@@ -59,7 +59,7 @@ Rails.application.configure do
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = "//#{ENV['MOLLY_NICK_S3_BUCKET']}.s3.amazonaws.com"
-  config.action_controller.asset_host = 'd373jwupfdh1nn.cloudfront.net'
+  # config.action_controller.asset_host = 'd373jwupfdh1nn.cloudfront.net'
 
 
   # Ignore bad email addresses and do not raise email delivery errors.
