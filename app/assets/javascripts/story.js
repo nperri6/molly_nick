@@ -102,10 +102,10 @@ $(document).ready(function() {
       $('#walkers-stand').css('display', 'block');
     }
 
-    if (scrollTop > 3340 && scrollTop < 4200) {
-      var doc = document.getElementById('wrap');
-      doc.style.bottom = -scrollTop + 3340 + 'px';
-    }
+    // if (scrollTop > 3340 && scrollTop < 4200) {
+    //   var doc = document.getElementById('wrap');
+    //   doc.style.bottom = -scrollTop + 3340 + 'px';
+    // }
 
   }
   window.addEventListener('scroll', function() {

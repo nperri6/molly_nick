@@ -6,15 +6,40 @@
   text-align: center;
 }
 
+.timeline-container {
+  width: 75%;
+  height: 100%;
+  /*text-align: center;*/
+  /*margin: auto;*/
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
 .images-left {
-  float: left;
+  order: 1;
  -ms-transform: rotate(-10deg); /* IE 9 */
   -webkit-transform: rotate(-10deg); /* Safari */
   transform: rotate(-10deg);
+  flex-grow: 1;
+}
+
+.timeline-text-container {
+  order: 2;
+  flex-grow: 2;
 }
 
 .images-right {
-  float: right;
+  order: 3;
+  flex-grow: 1;
+  /*float: right;*/
    -ms-transform: rotate(10deg); /* IE 9 */
   -webkit-transform: rotate(10deg); /* Safari */
   transform: rotate(10deg);

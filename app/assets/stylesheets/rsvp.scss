@@ -69,7 +69,8 @@
   /*min-height: 400px;*/
   color: #3c516c;
   border: 1px solid #3c516c;
-  background: image-url('paper.png');
+  background: image-url('grungepaper.jpg') center center;
+
   display: table;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
@@ -88,7 +89,7 @@
   color: #3c516c;
   font-family: 'Kaushan Script', cursive;
   transition: border 0.3s;
-  background: image-url('paper.png');
+  background: image-url('grungepaper.png');
 }
 
 .rsvp-left {
@@ -96,7 +97,7 @@
   width: 100px;
   margin: 0;
   height: 100%;
-  background: image-url('upfeathers.png');
+  /*background: image-url('upfeathers.png');*/
 }
 
 .rsvp-right {
