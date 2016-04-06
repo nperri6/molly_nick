@@ -13,7 +13,7 @@
   height: 100%;
   width: 100%;
   margin: 0;
-  background: image-url('nickandmolewalk.png') center center no-repeat;
+  background: url('https://s3.amazonaws.com/mollynick/weddingwebsite/nickandmolewalk.png') center center no-repeat;
   background-size: 100% 100%;
   display: none;
   position: absolute;
@@ -28,7 +28,7 @@
   display: none;
   top: 0;
   left: 0;
-  background: image-url('nicknmolenewoutfit.png') center center no-repeat;
+  background: url('https://s3.amazonaws.com/mollynick/weddingwebsite/nicknmolenewoutfit.png') center center no-repeat;
   background-size: 100% 100%;
 }
 #groom {
@@ -82,15 +82,15 @@
 }
 
 #second-story-pic {
-  background-image: image-url('mollynickthree.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/mollynickthree.jpg');
 }
 
 #third-story-pic {
-  background-image: image-url('mollynickhallo.png');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/mollynickhallo.png');
 }
 
 #fourth-story-pic {
-  background-image: image-url('mollynickbike.png');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/mollynickbike.png');
 }
 
 #fifth-story-pic {
@@ -98,15 +98,15 @@
 }
 
 #sixth-story-pic {
-  background-image: image-url('mollynickthailand.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/mollynickthailand.jpg');
 }
 
 #seventh-story-pic {
-  background-image: image-url('mollynickthai2.png');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/mollynickthai2.png');
 }
 
 #eigth-story-pic {
-  background-image: image-url('mollynickengagement1.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/mollynickengagement1.jpg');
 }
 .storymodalDialog > div {
   width: 400px;
