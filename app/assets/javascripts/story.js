@@ -21,12 +21,22 @@ $(document).ready(function() {
   var scrollheight = document.body.scrollHeight;
   var windowheight = window.innerHeight;
 
+  var screenWidth = window.innerWidth;
+  var screenHeight = window.innerHeight;
 // should refactor all of this parallax logic
 
 // it is too glitchy
 // add restrictions for mobile device
 //
 
+  function parallaxMobileWalkers() {
+    var scrollTop = window.pageYOffset;
+    var scrollAmount = (scrollTop / (scrollheight - windowheight)) * 100;
+
+    if (scrollTop > 600 && scrollTop < 3340) {
+      walkers.style.top = scrollTop -600  + 'px';
+    }
+  }
 
 
   function parallaxStory() {
@@ -108,10 +118,19 @@ $(document).ready(function() {
     // }
 
   }
-  window.addEventListener('scroll', function() {
-    walkingMotion();
-    requestAnimationFrame(parallaxStory);
-  }, false);
+
+  if ( screenWidth < 600 ) {
+      console.info("screen less than 600");
+      window.addEventListener('scroll', function() {
+      walkingMotion();
+      requestAnimationFrame(parallaxMobileWalkers);
+    }, false);
+  } else {
+    window.addEventListener('scroll', function() {
+      walkingMotion();
+      requestAnimationFrame(parallaxStory);
+    }, false);
+  }
 
   window.addEventListener('resize', function() {
     var scrollTop = window.pageYOffset;

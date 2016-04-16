@@ -1,5 +1,4 @@
 
-
 #walkers {
   margin: 0 auto;
   height: 300px;
@@ -282,5 +281,99 @@
   background-position: center;
   background-repeat: none;
   background-size: 100% 100%;
+}
+
+
+@media only screen and (max-device-width: 600px) {
+    #first {
+    left: -10%;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
+  #second {
+    top: 200px;
+    left: 0%;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
+
+  #third {
+    top: 400px;
+    left: 0%;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
+  #fourth {
+    top: 600px;
+    left: 0;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
+
+  #fifth {
+    top: 800px;
+    left: 0%;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
+  #sixth {
+    top: 1000px;
+    left: 0%;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
+  #seventh {
+    top: 1200px;
+    left: 0%;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
+
+  #eighth {
+    top: 1400px;
+    left: 10%;
+    position: relative;
+    z-index: 2;
+
+    background-position: center;
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+
 }
 
