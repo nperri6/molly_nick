@@ -119,13 +119,15 @@ $(document).ready(function() {
 
   }
 
-  if ( screenWidth < 600 ) {
+  if ( screenWidth < 1200 ) {
       console.info("screen less than 600");
       window.addEventListener('scroll', function() {
       walkingMotion();
       requestAnimationFrame(parallaxMobileWalkers);
     }, false);
   } else {
+    console.info("screenwidth", screenWidth);
+    console.info("big screen");
     window.addEventListener('scroll', function() {
       walkingMotion();
       requestAnimationFrame(parallaxStory);

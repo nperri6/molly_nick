@@ -79,3 +79,12 @@
   position: relative;
   text-align: center;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .mobile-section-title {
+    font-size: 45px;
+  }
+  .mobile-secondary-title {
+    font-size: 35px;
+  }
+}

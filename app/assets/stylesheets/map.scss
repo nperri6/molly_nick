@@ -88,3 +88,29 @@
   outline: 2px solid black;
 
 }
+
+@media only screen and (max-device-width: 600px) {
+  /*  .mobile-float-clearfix {
+      clear: both;
+    }*/
+    .map-left {
+/*      display: block;
+      float: none;
+      margin: 0 auto;*/
+      max-width: 400px;
+    }
+    .map-right {
+/*      display: block;
+      float: none;
+      margin: 0 auto;*/
+      /*margin-left: -100px;*/
+      max-width: 600px;
+    }
+    .map-container {
+      overflow: hidden;
+    }
+    .map-top-half {
+      max-width: 800px;
+      text-align: center
+    }
+}
