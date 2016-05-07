@@ -32,10 +32,10 @@ h3 {
   top: 0;
   left: 0;
   z-index: 99999;
-  background-color: rgba(211,211,211,0.4);
+  background-color: rgba(255,255,255,0.9);
   text-align: center;
   vertical-align: text-top;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .nav-bar a {
@@ -52,16 +52,57 @@ h3 {
 
 #home {
   min-width: 100%;
-  height: 675px;
-  background-image: image-url('engage4.jpg');
+  height: 775px;
+  /*background-image: image-url('engage4.jpg');*/
   /*background-image: image-url('mollynickbeach.jpg');*/
   /*background-image: image-url('mollynickdark.png');*/
-  background-position: center;
-  background-size: cover;
+  /*background-position: center;*/
+/*  background-size: cover;*/
+  /*background-image: image-url('darkwood.JPG');*/
+  background-image: image-url('fawn.jpg');
+  /*background-size: 100%;*/
+  background-repeat: repeat;
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
   left: 0;
+  text-align: center;
+}
+
+#home-img {
+  width: 750px;
+  height:500px;
+  max-width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: image-url('engage4.jpg');
+  margin: 0 auto;
+  /*margin-bottom: 0;*/
+  position: absolute;
+  border-radius: 90px;
+  /*bottom: 5px;*/
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#home-title {
+/*  text-align: center;
+  font-size: 80px;
+  color: #555856;*/
+  height: 246px;
+  width:706px;
+  max-width: 100%;
+  background-image: image-url('header2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+#home-subtitle {
+  text-align: center;
+  font-size: 60px;
+  color: white;
 }
 
 
