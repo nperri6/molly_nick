@@ -3,10 +3,21 @@ html, body {
   height: 7000px;
   font-family: 'Amaranth', sans-serif;
   margin: 0;
+  color: #555856;
 }
 
 h3 {
   margin-top: 0px;
+}
+
+.divider {
+  background-image: image-url('divider.png');
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 1600px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .section-title {
@@ -14,6 +25,7 @@ h3 {
   font-family: 'Merienda One', cursive;
   text-align: center;
   margin-bottom: 20px;
+  color: #555856;
 }
 
 .secondary-title {
@@ -21,9 +33,12 @@ h3 {
   font-size: 40px;
   margin-bottom: 10px;
   font-family: 'Merienda One', cursive;
+  color: #555856;
 }
 #wrap {
   position: relative;
+  background-image: image-url('lightpaperfibers.png');
+  background-repeat: repeat;
 }
 .nav-bar {
   position: fixed;
@@ -36,12 +51,13 @@ h3 {
   text-align: center;
   vertical-align: text-top;
   border-bottom: 1px solid black;
+  color: #555856;
 }
 
 .nav-bar a {
   text-decoration: none;
   font-family: 'Merienda One', cursive;
-  color: black;
+  color: #555856;
   font-size: 1.3em;
   margin: 10px 10px 0px 10px;
 }
@@ -52,7 +68,7 @@ h3 {
 
 #home {
   min-width: 100%;
-  height: 775px;
+  height: 675px;
   /*background-image: image-url('engage4.jpg');*/
   /*background-image: image-url('mollynickbeach.jpg');*/
   /*background-image: image-url('mollynickdark.png');*/
@@ -70,8 +86,8 @@ h3 {
 }
 
 #home-img {
-  width: 750px;
-  height:500px;
+  width: 639px;
+  height:434px;
   max-width: 100%;
   background-position: center;
   background-size: contain;
@@ -80,7 +96,7 @@ h3 {
   margin: 0 auto;
   /*margin-bottom: 0;*/
   position: absolute;
-  border-radius: 90px;
+  /*border-radius: 90px;*/
   /*bottom: 5px;*/
   bottom: 15px;
   left: 50%;
@@ -91,8 +107,8 @@ h3 {
 /*  text-align: center;
   font-size: 80px;
   color: #555856;*/
-  height: 246px;
-  width:706px;
+  height: 200px;
+  width:573px;
   max-width: 100%;
   background-image: image-url('header2.png');
   background-repeat: no-repeat;
@@ -100,9 +116,12 @@ h3 {
   margin: 0 auto;
 }
 #home-subtitle {
-  text-align: center;
+/*  text-align: center;
   font-size: 60px;
-  color: white;
+  color: white;*/
+  height: 200px;
+  width: 100%;
+  background-image: image-url('divider.png');
 }
 
 
@@ -124,7 +143,8 @@ h3 {
   left: 0;
   right: 0;
   height: 875px;
-  background-image: image-url('tileable_wood_texture.png');
+  /*overflow: auto;*/
+  /*background-image: image-url('tileable_wood_texture.png');*/
 }
 
 .timeline {
@@ -132,7 +152,8 @@ h3 {
   left: 0;
   right: 0;
   height: 700px;
-  background-image: image-url('new_year_background.png');
+  overflow: auto;
+  /*background-image: image-url('new_year_background.png');*/
 }
 
 .party {
@@ -140,7 +161,8 @@ h3 {
   left: 0;
   right: 0;
   height: 800px;
-  background-image: image-url('tileable_wood_texture.png');
+  overflow: auto;
+  /*background-image: image-url('tileable_wood_texture.png');*/
 
 }
 
@@ -148,17 +170,18 @@ h3 {
   width: 100%;
   left: 0;
   right: 0;
-  height: 650px;
-  background-image: image-url('new_year_background.png');
+  height: 640px;
+  /*background-image: image-url('new_year_background.png');*/
   background-repeat: repeat;
+  /*overflow: auto;*/
 }
 
 .rsvp {
   width: 100%;
   left: 0;
   right: 0;
-  height: 600px;
-  background-image: image-url('darkwood.JPG');
+  height: 680px;
+  /*background-image: image-url('darkwood.JPG');*/
   background-size: 100%;
 
 }

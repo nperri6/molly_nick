@@ -117,7 +117,8 @@
   background: -moz-linear-gradient(#fff, #999);
   background: -webkit-linear-gradient(#fff, #999);
   background: -o-linear-gradient(#fff, #999);
-  background: image-url('tileable_wood_texture.png');
+  /*background: image-url('tileable_wood_texture.png');*/
+  background: image-url('fawn.jpg');
 }
 
 
@@ -162,7 +163,8 @@
 .story-blurb {
   border: 3px solid black;
   width: 250px;
-  background: image-url('tileable_wood_texture.png'), rgba(255,255,255,0.4);
+  /*background: image-url('tileable_wood_texture.png'), rgba(255,255,255,0.4);*/
+  background: image-url('fawn.jpg'), rgba(255,255,255,0.4);
   z-index: 10;
   border-radius: 20px;
 }

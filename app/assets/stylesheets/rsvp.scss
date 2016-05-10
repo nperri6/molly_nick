@@ -1,11 +1,22 @@
 #rsvp-container {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
+}
+
+.flowers {
+  height: 117px;
+  width: 460px;
+  margin: 0 auto;
+  background-image: image-url('flowers2.png');
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .card {
   position: relative;
-  text-align: center;
+  /*text-align: center;*/
   width: 655px;
   /*width: inherit;*/
   min-height: 400px;
@@ -61,15 +72,15 @@
 }
 
 #rsvp-form-container {
-  text-align: center;
+  /*text-align: center;*/
   margin: 0 auto;
   width: inherit;
   min-height: inherit;
   /*width: 655px;*/
   /*min-height: 400px;*/
-  color: #3c516c;
+  /*color: #3c516c;*/
   border: 1px solid #3c516c;
-  background: image-url('grungepaper.jpg') center center;
+  background: image-url('eggshell.jpg') center center;
 
   display: table;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
@@ -86,10 +97,10 @@
   padding: 10px;
   border: none;
   border-bottom: solid 2px #3c516c;
-  color: #3c516c;
+  /*color: #3c516c;*/
   font-family: 'Kaushan Script', cursive;
   transition: border 0.3s;
-  background: image-url('grungepaper.png');
+  background: image-url('eggshell.jpg');
 }
 
 .rsvp-left {
@@ -111,12 +122,14 @@
 }
 
 .rsvp-logo {
-  height: 107px;
-  width: 400px;
-  background-image: image-url('rsvplogo2.png');
+  height: 125px;
+  width: 444px;
+  background-image: image-url('rsvplogo.png');
   background-repeat: no-repeat;
+  background-size: contain;
   display: inline-block;
-  margin-left: -23px;
+  margin-left: -39px;
+  margin-right: 59px;
 
 }
 
@@ -124,7 +137,12 @@
   display: inline-block;
   height: 107px;
   width: 150px;
-  background-image: image-url('weddingstamp.png');
+  /*background-image: image-url('weddingstamp.png');*/
+  background-image: image-url('stamp3.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin-top: 4px;
 }
 
 #rsvpButton {
