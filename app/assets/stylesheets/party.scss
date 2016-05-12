@@ -77,6 +77,10 @@
   text-align: center;
 
 }
+
+.third-row {
+  text-align: center;
+}
 .person {
   background-color: rgba(0,0,0,0.3);
   /*border-image: url('tileable_wood_texture.png') 5% repeat;*/
@@ -90,16 +94,52 @@
   display: inline-block;
 }
 
+#julie {
+  background-image: image-url('julie.jpg');
+}
+
+#julie:hover {
+  background-image: image-url('juliefun.jpg');
+}
+
+#lindsey {
+  background-image: image-url('lindsey.jpg');
+}
+
+#lindsey:hover {
+  background-image: image-url('lindseyfun.jpg');
+}
+
+#emily3 {
+  background-image: image-url('emily3.jpg');
+}
+
+#emily3:hover {
+  background-image: image-url('emily3fun.jpg');
+}
+
+#kimberly {
+  background-image: image-url('kimbo.jpg');
+}
+
+#kimberly:hover {
+  background-image: image-url('kimbofun.jpg');
+}
+
+
+
 #emily {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emily.jpg');
 }
 
 #emily:hover {
-background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfun.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfun.jpg');
 
 }
 
 #adrian {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/adriennefun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/adrienne.jpg');
 }
 
@@ -108,6 +148,7 @@ background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfu
 }
 
 #elena {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/elenafun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/elena.jpg');
 }
 
@@ -115,6 +156,7 @@ background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfu
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/elenafun.jpg');
 }
 #leah {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/leahfun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/leah.jpg');
 }
 
@@ -122,6 +164,7 @@ background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfu
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/leahfun.jpg');
 }
 #rachel {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/rachelfun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/rachel.png');
 }
 
@@ -130,6 +173,7 @@ background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfu
 }
 
 #morgan {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/morganfun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/morgan.jpg');
 }
 
@@ -138,6 +182,7 @@ background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfu
 }
 
 #wenny {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/wennyfun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/wenny.jpg');
 }
 
@@ -146,6 +191,7 @@ background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfu
 }
 
 #ann {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/annfun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/anne.jpg');
 }
 
@@ -154,6 +200,7 @@ background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/emilyfu
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/annfun.jpg');
 }
 #nicole {
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/nicolefun.jpg');
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/nicole.jpg');
 }
 
