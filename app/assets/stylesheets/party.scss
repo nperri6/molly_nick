@@ -67,6 +67,15 @@
   box-shadow: 1px 1px 3px #000;
 }
 
+
+@media only screen and (max-device-width: 765px) {
+  .modalDialog {
+    width: 100%;
+  }
+  .modalDialog > div {
+    width: 80%;
+  }
+}
 .close:hover { background: #00d9ff; }
 
 .first-row {
@@ -207,5 +216,6 @@
 #nicole:hover {
   background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/nicolefun.jpg');
 }
+
 
 
