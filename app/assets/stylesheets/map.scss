@@ -100,29 +100,39 @@
   outline: 2px solid black;
 
 }
-
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 765px) {
   /*  .mobile-float-clearfix {
       clear: both;
     }*/
     .map-left {
-/*      display: block;
+      display: block;
       float: none;
-      margin: 0 auto;*/
-      max-width: 400px;
+      width: 90%;
+      margin: 10px auto;
+      height: 100%;
+      /*max-width: 400px;*/
+    }
+    #map {
+      width: 100%;
     }
     .map-right {
-/*      display: block;
+
+      display: block;
       float: none;
-      margin: 0 auto;*/
+      width: 90%;
+      display: block;
+      float: none;
+      margin: 10px auto;
       /*margin-left: -100px;*/
-      max-width: 600px;
-    }
-    .map-container {
-      overflow: hidden;
+      /*max-width: 600px;*/
     }
     .map-top-half {
       max-width: 800px;
       text-align: center
+    }
+
+    .hotel {
+      width: 90%;
+      margin: 10px auto;
     }
 }

@@ -90,11 +90,17 @@
   text-align: center;
 }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 765px) {
   .mobile-section-title {
-    font-size: 45px;
+    font-size: 30px;
   }
   .mobile-secondary-title {
-    font-size: 35px;
+    font-size: 20px;
+  }
+  .images-left {
+    display: none;
+  }
+  .images-right {
+    display: none;
   }
 }

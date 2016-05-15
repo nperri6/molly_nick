@@ -52,7 +52,7 @@ $(document).ready(function() {
     }
     // second
     if (scrollTop < 1000) {
-      second.style.left = 140 - scrollAmount * 4.75 + '%';
+      second.style.left = 140 - scrollAmount * 4.8 + '%';
     }
     //third
     if (scrollTop > 700 && scrollTop < 1460) {
@@ -60,23 +60,23 @@ $(document).ready(function() {
     }
     // fourth
     if (scrollTop > 1400 && scrollTop < 1720) {
-      fourth.style.left = 170 - scrollAmount * 4 + '%';
+      fourth.style.left = 170 - scrollAmount * 4.1 + '%';
     }
     // fifth
     if (scrollTop > 1780 && scrollTop < 1944) {
-      fifth.style.left = -100 + scrollAmount * 4 + '%';
+      fifth.style.left = -100 + scrollAmount * 4.1 + '%';
     }
     //sixth
     if (scrollTop >2100 && scrollTop < 2250) {
-      sixth.style.left = 170 - scrollAmount* 3.1 + '%';
+      sixth.style.left = 170 - scrollAmount* 3.2 + '%';
     }
     // seventh
     if (scrollTop > 2400 && scrollTop < 2700) {
-      seventh.style.left = -110 + scrollAmount * 3.1 + '%';
+      seventh.style.left = -110 + scrollAmount * 3.2 + '%';
     }
     // eighth
     if (scrollTop > 2700 && scrollTop < 2900) {
-      eighth.style.left = 200 - scrollAmount * 3.1 + '%';
+      eighth.style.left = 200 - scrollAmount * 3.2 + '%';
     }
 
 
@@ -119,13 +119,12 @@ $(document).ready(function() {
 
   }
   console.info("screenwidth pre", screenWidth);
-  if ( screenWidth < 600 ) {
-      console.info("screen less than 600");
-      window.addEventListener('scroll', function() {
-      walkingMotion();
-      requestAnimationFrame(parallaxMobileWalkers);
-    }, false);
-  } else {
+  if ( screenWidth > 765) {
+    //   console.info("screen less than 600");
+    //   window.addEventListener('scroll', function() {
+    //   walkingMotion();
+    //   requestAnimationFrame(parallaxMobileWalkers);
+    // }, false);
     console.info("screenwidth", screenWidth);
     console.info("big screen");
     window.addEventListener('scroll', function() {

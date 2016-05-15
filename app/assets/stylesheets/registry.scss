@@ -11,3 +11,11 @@
   display: block;
 
 }
+
+
+@media only screen and (max-device-width: 765px) {
+  .zola-logo {
+    width: 90%;
+  }
+
+}

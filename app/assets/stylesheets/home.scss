@@ -1,6 +1,6 @@
 html, body {
   width: 100%;
-  height: 7870px;
+  height: 8120px;
   font-family: 'Amaranth', sans-serif;
   margin: 0;
   color: #555856;
@@ -11,6 +11,9 @@ h3 {
   margin-top: 0px;
 }
 
+.mobile-nav-a {
+  display: none;
+}
 .divider {
   background-image: image-url('divider.png');
   background-repeat: no-repeat;
@@ -86,7 +89,7 @@ h3 {
   text-align: center;
 }
 
-#home-img {
+.home-img {
   width: 639px;
   height:434px;
   max-width: 100%;
@@ -161,7 +164,7 @@ h3 {
   width: 100%;
   left: 0;
   right: 0;
-  height: 800px;
+  height: 930px;
   overflow: auto;
   /*background-image: image-url('tileable_wood_texture.png');*/
 
@@ -179,6 +182,7 @@ h3 {
 
 .rsvp {
   width: 100%;
+  max-width: 100%;
   left: 0;
   right: 0;
   height: 680px;
@@ -187,6 +191,60 @@ h3 {
 
 }
 
+@media (max-width: 765px) {
+
+  .reg-nav-a {
+    display: none;
+  }
+  .mobile-nav-a {
+    display: inline-block;
+
+  }
+  .nav-bar a {
+    font-size: 15px;
+    margin: 10px 3px 0px 3px;
+    vertical-align: text-bottom;
+  }
+  .home-img {
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    /*display: none;*/
+  }
+
+  #home-title {
+    height: 125px;
+
+  }
+  #home-subtitle {
+    height: 0px;
+    width: 0px;
+    display: none;
+  }
+
+  #home {
+    height: 380px;
+  }
+  .story {
+    display: none;
+  }
+
+  .story-title {
+    display: none;
+  }
+
+  html, body, .party, .rsvp, .registry, .timeline, .map-container, {
+    height: 100%;
+  }
+
+  .secondary-title {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+}
 
 
 

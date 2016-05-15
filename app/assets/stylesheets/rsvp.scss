@@ -90,7 +90,7 @@
   margin: 0 auto;
   width: inherit;
   min-height: inherit;
-  /*width: 655px;*/
+  /*width: 320px;*/
   /*min-height: 400px;*/
   /*color: #3c516c;*/
   border: 1px solid #3c516c;
@@ -196,4 +196,43 @@
 .rsvpButton:active {
   position:relative;
   top:1px;
+}
+@media only screen and (max-device-width: 765px) {
+  .card {
+    width: 100%;
+  }
+
+  .card__front {
+    width: 100%;
+  }
+
+  .card__back {
+    width: 100%;
+  }
+
+  .rsvp-logo {
+
+    display: none;
+  }
+
+  #rsvp-form-container {
+    width: 90%;
+    overflow: hidden;
+  }
+  .rsvp-right {
+    width: 100%;
+  }
+  .rsvp-stamp {
+    float: right;
+  }
+
+  .flowers {
+    display: none;
+  }
+  .mobile-clear-fix {
+    clear: both;
+  }
+/*  #rsvp-container div {
+    max-width: 100%;
+  }*/
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="https://maps.google.com/maps/api/js?libraries=places"></script>
   <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -13,12 +14,19 @@
 <body>
 
 <div class='nav-bar'>
-  <a href="/"> N and M </a>
-  <a href="#map-nav"> Destination</a>
-  <a href="#timeline-nav"> Timeline </a>
-  <a href="#party-nav"> Wedding Party</a>
-  <a href="#registry-nav"> Gifts </a>
-  <a href="#rsvp-container"> RSVP</a>
+  <a class="reg-nav-a" href="/"> N and M </a>
+  <a class="reg-nav-a" href="#map-nav"> Destination</a>
+  <a class="reg-nav-a" href="#timeline-nav"> Timeline </a>
+  <a class="reg-nav-a" href="#party-nav"> Wedding Party</a>
+  <a class="reg-nav-a" href="#registry-nav"> Gifts </a>
+  <a class="reg-nav-a" href="#rsvp-container"> RSVP</a>
+  <!-- Mobile headings -->
+  <a class="mobile-nav-a" href="#map-nav"> Locale</a>
+  <a class="mobile-nav-a" href="#timeline-nav"> Timeline </a>
+  <a class="mobile-nav-a" href="#party-nav"> Party</a>
+  <a class="mobile-nav-a" href="#registry-nav"> Gifts </a>
+  <a class="mobile-nav-a" href="#rsvp-container"> RSVP</a>
+
 </div>
 
 <%= yield %>
