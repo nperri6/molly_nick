@@ -34,7 +34,7 @@
   height: 300px;
   width: 300px;
   z-index: 100;
-  background: image-url('groomsuit.png') center center no-repeat;
+  /*background: image-url('groomsuit.png') center center no-repeat;*/
   background-size: 100% 100%;
   position: relative;
   top: 1650px;
@@ -118,7 +118,7 @@
   background: -webkit-linear-gradient(#fff, #999);
   background: -o-linear-gradient(#fff, #999);
   /*background: image-url('tileable_wood_texture.png');*/
-  background: image-url('fawn.jpg');
+  background: url('https://s3.amazonaws.com/mollynick/weddingwebsite/fawn.jpg');
 }
 
 
@@ -164,7 +164,7 @@
   border: 3px solid black;
   width: 250px;
   /*background: image-url('tileable_wood_texture.png'), rgba(255,255,255,0.4);*/
-  background: image-url('fawn.jpg'), rgba(255,255,255,0.4);
+  background: url('https://s3.amazonaws.com/mollynick/weddingwebsite/fawn.jpg'), rgba(255,255,255,0.4);
   z-index: 10;
   border-radius: 20px;
 }

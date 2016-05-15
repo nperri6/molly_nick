@@ -15,7 +15,7 @@ h3 {
   display: none;
 }
 .divider {
-  background-image: image-url('divider.png');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/divider.png');
   background-repeat: no-repeat;
   height: 100px;
   width: 1600px;
@@ -41,7 +41,7 @@ h3 {
 }
 #wrap {
   position: relative;
-  background-image: image-url('lightpaperfibers.png');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/lightpaperfibers.png');
   background-repeat: repeat;
 }
 .nav-bar {
@@ -79,7 +79,7 @@ h3 {
   /*background-position: center;*/
 /*  background-size: cover;*/
   /*background-image: image-url('darkwood.JPG');*/
-  background-image: image-url('fawn.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/fawn.jpg');
   /*background-size: 100%;*/
   background-repeat: repeat;
   margin: 0 auto;
@@ -96,7 +96,7 @@ h3 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: image-url('engage4.jpg');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/engage4.jpg');
   margin: 0 auto;
   /*margin-bottom: 0;*/
   position: absolute;
@@ -114,7 +114,7 @@ h3 {
   height: 200px;
   width:573px;
   max-width: 100%;
-  background-image: image-url('header2.png');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/header2.png');
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
@@ -134,7 +134,7 @@ h3 {
   left: 0;
   right: 0;
   height: 3000px;
-  background-image: image-url('storybackground.png');
+  background-image: url('https://s3.amazonaws.com/mollynick/weddingwebsite/storybackground.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
