@@ -119,7 +119,7 @@ $(document).ready(function() {
 
   }
   console.info("screenwidth pre", screenWidth);
-  if ( screenWidth > 765) {
+  if ( screenWidth > 800) {
     //   console.info("screen less than 600");
     //   window.addEventListener('scroll', function() {
     //   walkingMotion();
